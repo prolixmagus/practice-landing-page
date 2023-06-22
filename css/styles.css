@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+    padding: 5px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(91, 153, 147);
+}
+
+.container-one {
+    background-image: url('../images/pexels-jess-loiterton-4321194.jpg')
+
+}
+.hero {
+    display: flex;
+    flex: 1;
+    background-image: linear-gradient(#439e80, #146b4e, #053b29);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button {
+    border-radius: 5px;
+    border: 1px solid rgb(80, 168, 158);
+    background-color:rgb(79, 170, 161);
+    color: rgb(128, 39, 128);
+    margin-top: 15px;
+    padding: 25px;
+    font-size: 18px;
+    
+}
+
+.hero-left {
+    padding: 30px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.caption {
+    color: rgb(230, 230, 210);
+    font-size: 18px;
+}
+
+.flowerhorn {
+    padding: 30px 30px 0px 30px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.hero-secondary-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.call-action {
+    font-size: 20px;
+    color: rgb(27, 27, 112);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.container-two {
+    border: 1px solid black;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    background-image: url('../images/pexels-jess-loiterton-4321194.jpg')
+}
+
