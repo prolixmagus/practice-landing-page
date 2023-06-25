@@ -55,11 +55,11 @@ a:hover {
 
 .hero-button {
     border-radius: 5px;
-    border: 1px solid rgb(80, 168, 158);
     background-color:rgb(79, 170, 161);
+    border-color: rgb(79, 170, 161);
     color: rgb(128, 39, 128);
     margin-top: 15px;
-    padding: 25px;
+    padding: 15px;
     font-size: 18px;
     
 }
@@ -85,7 +85,7 @@ a:hover {
     margin-top: 30px;
     margin-left: 10px;
     border-radius: 25px;
-    max-height: 300px;
+    height: 35-px;;
 }
 
 .hero-main-text {
@@ -107,20 +107,21 @@ a:hover {
 }
 
 .container-two {
-    text-align: center;
     background-color: black;
+    padding: 30px;
 } 
 
 .image-container {
-    max-width: 300px;
+    width: 300px;
 
 }
 .gallery {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin: 30px 10px;
-    padding: 20px 20px;
+    margin: 15px 10px;
+    padding: 30px;
 }
 
 .gallery-image {
@@ -133,7 +134,7 @@ a:hover {
 .gallery-text {    
     color: rgb(230, 230, 210);
     font-size: 18px;
-    max-width: 300px;
+    width: 300px;
 }
 
 .footer {
@@ -141,14 +142,16 @@ a:hover {
     justify-content: center;
     align-content: center;
     border: 1px solid black;
-    background-image: url('../images/waves.jpg')
+    background-image: url('../images/waves.jpg');
 }
 
 .info-text {
     font-size: 34px;
     font-weight: bolder;
-    margin: 30px;
-    color:  rgb(128, 39, 128)
+    text-align: center; 
+    margin-top: 15px;
+    color:  rgb(128, 39, 128);
+  
 }
 
 .container-three {
@@ -160,7 +163,8 @@ a:hover {
 
 .quote-container {
     margin: 30px;
-    max-width: 700px;
+    width: 800px;
+    padding: 60px;
 }
 
 .quote {
@@ -173,3 +177,54 @@ a:hover {
     font-weight: 600;
     font-size: 18px;
 }
+
+.container-four {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.action-container {
+    background-color:rgb(79, 170, 161);
+    display: flex;
+    align-content: center;
+    margin: 30px 0px;
+
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 30px;
+
+}
+.action-title {
+    color:  rgb(128, 39, 128);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    }
+
+.action-subtitle {
+    color:  rgb(128, 39, 128);
+    font-size: 16px; 
+}
+.action-button {
+    height: 30px;
+    align-self: center;
+    border-radius: 5px;
+    background-color:rgb(79, 170, 161);
+    border-color: rgb(128, 39, 128);
+    color: rgb(128, 39, 128);
+    margin: 20px;
+    width: 15%;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    
+   
+    
+}
+
