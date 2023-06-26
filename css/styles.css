@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -28,6 +28,24 @@ body {
 .logo {
     margin-left: 40px;
     padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo-text {
+    font-style: italic;
+}
+
+.logo-background {
+    background-color: rgba(79, 170, 161, 0.555);
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
 }
 ul {
     padding: 0;
@@ -41,6 +59,7 @@ a {
 
 a:hover {
     color: rgb(91, 153, 147);
+    font-weight: 900;
 }
 
 .container-one {
@@ -143,6 +162,7 @@ a:hover {
     align-content: center;
     border: 1px solid black;
     background-image: url('../images/waves.jpg');
+    padding: 15px;
 }
 
 .info-text {
@@ -188,23 +208,25 @@ a:hover {
 .action-container {
     background-color:rgb(79, 170, 161);
     display: flex;
-    align-content: center;
-    margin: 30px 0px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px 0px;
+    border-radius: 10px;
 
 }
 
 .action-left {
     display: flex;
     flex-direction: column;
-    width: 75%;
     padding: 30px;
+    justify-content: left;
 
 }
 .action-title {
     color:  rgb(128, 39, 128);
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
     }
 
 .action-subtitle {
@@ -218,12 +240,8 @@ a:hover {
     background-color:rgb(79, 170, 161);
     border-color: rgb(128, 39, 128);
     color: rgb(128, 39, 128);
-    margin: 20px;
     width: 15%;
     font-size: 14px;
-    padding: 0px;
-    margin: 0px;
-    
    
     
 }
