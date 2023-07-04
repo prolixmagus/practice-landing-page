@@ -3,7 +3,7 @@ This is a summative assessment of the Foundations: CSS section of [TheOdinProjec
 ## skills
 I will be creating headers, modals, footers, and content using flex and other css tricks.
 
-#Credits
+# credits
 * The fish logo is accredited to the [EmojiOneProject](https://joypixels.com/) under a Creative Commons Attribution 4.0
 * The flowerhorn is by Jeffry Surianto, downloaded from [Pexels](www.pexels.com)
 * The nose doctor fish was posted on [Pixabay](www.pixabay.com) by user galamon03.
