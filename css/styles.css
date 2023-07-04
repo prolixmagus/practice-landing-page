@@ -77,7 +77,7 @@ a:hover {
     background-color:rgb(79, 170, 161);
     border-color: rgb(79, 170, 161);
     color: rgb(128, 39, 128);
-    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 15px;
     font-size: 18px;
     
@@ -91,6 +91,7 @@ a:hover {
 
 .hero-right {
     margin-right: 40px;
+    flex-shrink: 1;
 
 }
 
@@ -104,7 +105,7 @@ a:hover {
     margin-top: 30px;
     margin-left: 10px;
     border-radius: 25px;
-    height: 35-px;;
+    width: 350px;
 }
 
 .hero-main-text {
@@ -234,15 +235,11 @@ a:hover {
     font-size: 16px; 
 }
 .action-button {
-    height: 30px;
-    align-self: center;
     border-radius: 5px;
     background-color:rgb(79, 170, 161);
     border-color: rgb(128, 39, 128);
     color: rgb(128, 39, 128);
     width: 15%;
     font-size: 14px;
-   
-    
+    margin-right: 30px;
 }
-
