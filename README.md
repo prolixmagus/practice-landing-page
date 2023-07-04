@@ -8,4 +8,4 @@ I will be creating headers, modals, footers, and content using flex and other cs
 * The flowerhorn is by Jeffry Surianto, downloaded from [Pexels](www.pexels.com)
 * The nose doctor fish was posted on [Pixabay](www.pixabay.com) by user galamon03.
 * The clownfish is by Oleksandr Pidvalnyi. It can also be found on [Pexels](www.pexels.com)
-* The goldfihs is by Delany Van Vranken. [Pexels](www.pexels.com) again!
+* The goldfish is by Delany Van Vranken. [Pexels](www.pexels.com) again!
